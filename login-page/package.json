@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-dev": "tailwindcss -i src/styles.css -o dist/tailwindcss",
+    "css-dev": "NODE_ENV=production tailwindcss -i src/styles.css -o dist/tailwind.css -w",
     "css-prod": "NODE_ENV=production tailwindcss -i src/styles.css -o dist/tailwind.css"
   },
   "keywords": [],
